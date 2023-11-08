@@ -37,4 +37,5 @@ jobs:
       uses: actions/upload-artifact@v3.1.3
       with:
         arguments: build
+        name:  grettins-jar
         path: build/libs
