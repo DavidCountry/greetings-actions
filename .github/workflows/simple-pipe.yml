@@ -39,3 +39,6 @@ jobs:
         arguments: build
         name:  grettins-jar
         path: build/libs
+    - shell:  bash
+      run:
+        java -jar greetings-actions.jar ${{ github.event.inputs.myvalues  }}
